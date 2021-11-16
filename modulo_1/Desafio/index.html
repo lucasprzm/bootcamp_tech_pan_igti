@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head lang="pt-BR">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="estilos.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Filtro de Funcionários</title>
+</head>
+<body>
+  <div class="app">
+    <div>
+      <h2>Opções</h2>
+      <label>Filtrar por:</label
+      ><select id="tipoFiltro"></select>
+      <fieldset id="rolesfs">
+        <legend>Filtrar por Cargo</legend>
+      </fieldset>
+    </div>
+    <div>
+      <h2>Funcionários <span id="counter"></span></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Cargo</th>
+            <th>Salário</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>

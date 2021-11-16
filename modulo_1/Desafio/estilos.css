@@ -1,0 +1,18 @@
+body {
+  font-family: Arial;
+}
+.app {
+  display: flex;
+}
+.app > div {
+  padding: 8px;
+}
+fieldset > label {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+}
+thead {
+  border: 1px solid black;
+}
